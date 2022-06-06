@@ -1,6 +1,8 @@
+import s from './Header.module.css';
+
 const Header = () => {
     return (
-        <header className='header'>
+        <header className={s.header}>
             <img
                 src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Coca-Cola_logo.svg/1280px-Coca-Cola_logo.svg.png'/>
         </header>
